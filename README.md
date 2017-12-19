@@ -6,6 +6,7 @@ This is a module call Ecoli mutation types, such as intergenetic,synonymousSNV,n
 * default only consider mutation type without indel, because indel is not accuracy with sequencing error according to our research.
 
 
-###Ex:
+### Ex:
 ```./judgemuttype.py -a Ecoli_ATCC8739.fa -f test.snp.txt -r ecoli_refGene.txt -o MutType.txt -n Ecoli.anno -l```
+
 ###output
