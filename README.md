@@ -5,8 +5,8 @@ This is a module call Ecoli mutation types, such as intergenetic,synonymousSNV,n
 * optional annfile: the annotationfile with header, eachline has eight tab-delimited; coloumn:$species,$start,$end,$strand,$type,$locus,$productId,$description. For example, Ecoli,38,1451,+,protein,Ecolc_0001,ACA75689.1, chromosomal replication initiator protein DnaA. Only important thing is $start,$end,$type,$locus, the type(including tRNA or rRNA) and locus both are selectively.
 * default only consider mutation type without indel, because indel is not accuracy with sequencing error according to our research.
 
-### Usage: judgemuttype.py [options] arg
 ```
+Usage: judgemuttype.py [options] arg
 Options:
   -h, --help            show this help message and exit
   -a REFFA, --reffa=REFFA
