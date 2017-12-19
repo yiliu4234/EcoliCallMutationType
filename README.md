@@ -9,4 +9,11 @@ This is a module call Ecoli mutation types, such as intergenetic,synonymousSNV,n
 ### Ex:
 ```./judgemuttype.py -a Ecoli_ATCC8739.fa -f test.snp.txt -r ecoli_refGene.txt -o MutType.txt -n Ecoli.anno -l```
 
-###output
+### output
+```
+Chrom   Position        Ref     Alt     Muttype Locus   Strand  Ingenepos       Altpropos       Refpro  Altpro
+Ecoli   39      G       A       intergenetic    .       .       .       .       .       .
+Ecoli   100     C       T       intergenetic    EcolC_0001      .       .       .       .       .
+Ecoli   1072    G       C       intergenetic    EcolC_0001      .       .       .       .       .
+Ecoli   2891    G       A       nonsynonymousSNV        EcolC_0003      +       336/1074        111/358 M       I
+```
